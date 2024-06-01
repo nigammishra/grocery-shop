@@ -28431,7 +28431,7 @@ span.flatpickr-weekday {
   height: 100%;
   overflow: hidden;
   position: relative;
-  width: 75%;
+  /* width: 100%; */
 }
 
 .shadow-effect,
@@ -28623,7 +28623,7 @@ select {
 /* Initial state for elements that will slide in from the bottom */
 .slide-in-bottom {
   opacity: 0;
-  transform: translateY(10px);
+  transform: translateY(100px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
@@ -28637,7 +28637,7 @@ select {
 /* Initial state for elements that will slide in from the top */
 .slide-in-top {
   opacity: 0;
-  transform: translateY(-10px);
+  transform: translateY(-100px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
